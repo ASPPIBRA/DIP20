@@ -1,0 +1,35 @@
+.
+├── LICENSE                             # Arquivo que contém a licença do projeto, detalhando os termos sob os quais o código pode ser utilizado e distribuído.
+├── motoko                              # Diretório que contém os arquivos e scripts escritos na linguagem Motoko, uma linguagem projetada especificamente para o desenvolvimento em Internet Computer.
+│   ├── demo.sh                         # Script shell que pode ser utilizado para demonstrar ou executar ações específicas no projeto.
+│   ├── dfx.json                        # Arquivo de configuração do DFX (o principal CLI para desenvolvimento na Internet Computer), contendo informações sobre o projeto e suas dependências.
+│   └── src                             # Diretório que contém o código-fonte do projeto.
+│       ├── cap                         # Subdiretório que contém arquivos relacionados a uma funcionalidade específica ou um módulo chamado "cap".
+│       │   ├── Cap.mo                  # Arquivo que define a implementação do módulo "Cap", que pode conter funções, tipos e lógicas relacionadas.
+│       │   ├── IC.mo                   # Arquivo que pode conter definições e interações com as funções do Internet Computer (IC).
+│       │   ├── Root.mo                 # Arquivo que pode conter a raiz da lógica do módulo "cap" e talvez exporte outras funcionalidades.
+│       │   ├── Router.mo               # Arquivo que provavelmente contém a lógica de roteamento para interações entre diferentes partes do sistema.
+│       │   └── Types.mo                # Arquivo que define tipos de dados específicos utilizados no módulo "cap".
+│       ├── token.mo                    # Arquivo principal que implementa a lógica do token, incluindo suas funções, transferências e interações.
+│       └── types.mo                    # Arquivo que define tipos de dados usados no projeto, permitindo a estruturação e validação de dados.
+├── README.md                           # Arquivo que fornece uma visão geral do projeto, suas funcionalidades, como instalá-lo e usá-lo.
+├── rust                                # Diretório que contém arquivos e scripts escritos em Rust, outra linguagem de programação utilizada no projeto.
+│   ├── cap                             # Diretório que pode conter arquivos relacionados ao módulo "cap" em Rust.
+│   ├── Cargo.lock                      # Arquivo gerado automaticamente que registra as versões exatas das dependências usadas no projeto Rust.
+│   ├── Cargo.toml                      # Arquivo de configuração que especifica as dependências do projeto Rust e outras informações.
+│   ├── dfx.json                        # Arquivo de configuração do DFX para a parte em Rust do projeto, semelhante ao que está no diretório "motoko".
+│   ├── DIP20-logo.png                 # Imagem que pode ser usada como logotipo para o token, seguindo o padrão DIP-20.
+│   ├── scripts                         # Diretório que contém scripts úteis para interações com o projeto.
+│   │   ├── cap_service.sh              # Script que pode ser usado para interagir ou configurar o serviço "cap".
+│   │   ├── deploy.sh                   # Script utilizado para realizar a implantação do token ou de outras partes do sistema.
+│   │   ├── healthcheck.sh              # Script que pode ser usado para verificar a saúde do serviço ou sistema.
+│   │   └── identity.sh                 # Script que pode estar relacionado à gestão de identidades no sistema.
+│   └── token                           # Subdiretório que contém arquivos relacionados ao módulo do token em Rust.
+│       ├── Cargo.toml                  # Arquivo de configuração do projeto Rust para o módulo do token.
+│       ├── src                         # Diretório que contém o código-fonte do módulo do token.
+│       │   └── main.rs                 # Arquivo principal em Rust que contém a lógica de implementação do token.
+│       └── token.did                   # Arquivo que pode conter a definição de interface do token, seguindo o padrão de identificadores de tipos.
+├── spec.md                             # Arquivo que pode conter especificações detalhadas sobre o funcionamento do token ou outras partes do sistema.
+└── tree_structure.txt                  # Arquivo que pode descrever a estrutura do projeto, possivelmente com mais detalhes ou uma representação alternativa.
+
+8 directories, 24 files
